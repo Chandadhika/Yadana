@@ -1,0 +1,68 @@
+body {
+    font-family: pyidaungsu;
+}
+
+header {
+    margin: 25px;
+    background-color: #fafc50;
+}
+.container {a
+    width: 1280px;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.logo h1 {
+color: rgb(27, 83, 251);
+font-size: 2rem;
+font-family: times new roman;
+text-shadow: 2px 1px 2px  rgb(111, 5, 5);
+margin: 15px;
+}
+.label {
+    width: 50px;
+    color: rgb(226, 11, 11);
+}
+
+.hero {
+background-image: url(images/12.jpeg);
+background-position: center;
+background-size: cover;
+background-color: rgb(221, 244, 236);
+padding: 50px 0;
+text-align: center;
+color: #d2e407;
+}
+.hero p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: justify;
+
+}
+.btn {
+pad: 8px 24px;
+background-color: #b9bc01;
+color: rgb(8, 0, 0);
+border: none;
+}
+.content .container h1{
+    width: 1280px;
+    padding: 300px;
+}
+.content .container {
+    width: 1280px;
+    padding: 300px;
+}
+footer {
+    background: rgb(243, 98, 98);
+    color: #d4b502;
+    height: 50px;
+    text-align: left;
+    font-size: 2rem;
+
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js.css">
+    <script src="js.js"></script>
+    <style type="text/css"> 
+    body {
+        background: #854b4b;
+    }
+    .on {
+        background: rgb(15, 248, 34);
+    }
+    </style>
+</head>
+<body id="bd">
+    <button id="btn" onclick="switchToggle()">Switch On/Off</button>
+    <script type="text/javascript">
+        var btn = document.getElementById("btn");
+        var bd = document.getElementById("bd");
+
+        function switchToggle() {
+            bd.classList.toggle("on");
+        }
+    </script>
+
+</body>
+</html>

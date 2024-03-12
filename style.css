@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: #1877f2;
+    display: grid;
+    place-items: center;
+}
+body .SBC-Group {
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(13deg, rgb(225,225,225,0,8), rgb(225,225,225,0,25));
+    backdrop-filter: 2px solid yellow;
+    box-shadow: 5px 5px 0px #000;
+    border-radius: 15px;
+    padding: 15px;
+}
+.SBC-Group .title {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+.SBC-Group .title .icon {
+    font-size: 5em;
+    color: rgb(2, 124, 124);
+}
+.SBC-Group .title .text {
+    font-size: 2em;
+    font-weight: 800;
+    color: black;
+    filter: drop-shadow(0px 2px #3b1818);
+}

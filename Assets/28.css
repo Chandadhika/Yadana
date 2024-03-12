@@ -1,0 +1,19 @@
+
+.w-6 {
+    width: 55px;
+
+}
+.h-6 {
+    height: 55px;
+
+}
+ul {
+    list-style: none;
+    
+}
+.grid {
+    grid-template-columns: 1fr 4fr;
+    display: grid;
+    align-items: center;
+    
+}
